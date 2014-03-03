@@ -15,7 +15,7 @@
     {
       "type": "vagrant",
       "compression_level": 9,
-      "output": ".centos6.5-x86_64-docker.box"
+      "output": "centos6.5-x86_64-docker.box"
     }
   ],
   "builders": [
@@ -34,7 +34,7 @@
         [ "modifyvm", "{{.Name}}", "--memory", "1024" ],
         [ "modifyvm", "{{.Name}}", "--cpus",   "2"    ]
       ],
-      "http_directory": "http",
+      "http_directory": ".",
       "boot_command": [
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter>"
       ],
