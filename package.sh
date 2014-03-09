@@ -15,4 +15,3 @@ yum install -y puppet
 curl -kL https://www.opscode.com/chef/install.sh | bash
 
 yum install -y docker-io
-yum update -y
