@@ -1,2 +1,7 @@
 packer_cache/
 centos6.5-x86_64-docker.box
+### https://raw.github.com/github/gitignore/master/Global/vagrant.gitignore
+
+.vagrant/
+
+
