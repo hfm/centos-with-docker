@@ -14,6 +14,7 @@
         [ "modifyvm", "{{.Name}}", "--memory", "1024" ],
         [ "modifyvm", "{{.Name}}", "--cpus",   "1"    ]
       ],
+      "http_directory": ".",
       "boot_command": [
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter>"
       ],
@@ -36,7 +37,7 @@
     {
       "type": "vagrant",
       "compression_level": 9,
-      "output": "{{.BuildName}}.box"
+      "output": "centos6.5-x86_64-docker.box"
     }
   ]
 }
