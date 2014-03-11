@@ -9,7 +9,7 @@ $ vagrant up
 
 ## Installed
 
-* Docker (docker-id)
+* Docker (docker-io)
 * Puppet
 * Chef
 
