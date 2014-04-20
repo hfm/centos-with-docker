@@ -2,9 +2,9 @@
 
 ## Usage
 
-```console
-$ vagrant init centos6.5-x86_64-docker https://github.com/tacahilo/centos-with-docker/releases/download/v1.0/centos6.5-x86_64-docker.box
-$ vagrant up
+```sh
+vagrant init hfm4/centos6.5-x86_64-docker
+vagrant up
 ```
 
 ## Installed
@@ -15,8 +15,8 @@ $ vagrant up
 
 ## How to build
 
-```console
-$ packer build packer.json
+```sh
+packer build packer.json
 ```
 
 ## Troubleshoot
